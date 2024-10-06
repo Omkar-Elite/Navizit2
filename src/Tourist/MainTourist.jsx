@@ -136,15 +136,17 @@ export default function MainTourist() {
                 </div>
                 <hr />
                 <div className="flex items-center h-[30px]">
-                  { webname? <i className="fa-solid fa-earth-americas text-gray-500"></i> 
-                  <p className="text-gray-700">
-                    <a
-                      href={website}
-                      className="text-blue-600 ml-2"
-                    >
-                      {webname}
-                    </a>
-                  </p> : null}
+                 { webname ? (
+                      <div className="flex items-center">
+                        <i className="fa-solid fa-earth-americas text-gray-500"></i>
+                        <p className="text-gray-700 ml-2">
+                          <a href={website} className="text-blue-600">
+                            {webname}
+                          </a>
+                        </p>
+                      </div>
+                    ) : null }
+
                 </div>
               </div>
             </div>
