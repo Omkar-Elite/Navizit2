@@ -25,7 +25,7 @@ export default function AllTourist() {
                  
                  website="https://mumbaicity.gov.in/tourist-place/gateway-of-india/"
 
-                 webname=["Gateway Of India", "Free", "24/7"]
+                 webname={["Gateway Of India", "Free", "24/7"]}
 
                 
 
@@ -47,7 +47,7 @@ export default function AllTourist() {
 
                  
 
-                 webname=["Elephanta Caves", "Paid", "From 9:30 AM to 5:30 PM"]
+                 webname={["Elephanta Caves", "Paid", "From 9:30 AM to 5:30 PM"]}
 
                 
                  />
@@ -65,7 +65,7 @@ export default function AllTourist() {
                  
                  website="https://www.siddhivinayak.org/"
 
-                 webname=["Siddhivinayak Temple", "Free", "From 5:30 AM to 10:00 PM"]
+                 webname={["Siddhivinayak Temple", "Free", "From 5:30 AM to 10:00 PM"]}
  
 
 
@@ -86,7 +86,7 @@ export default function AllTourist() {
                  
                  website=""
 
-                 webname=["", "Free", "24/7"]
+                 webname={["", "Free", "24/7"]}
 
                 
 
@@ -105,7 +105,7 @@ export default function AllTourist() {
                  
                  website=""
 
-                 webname=["", "Free", "24/7"]
+                 webname={["", "Free", "24/7"]}
 
 
                  
@@ -124,7 +124,7 @@ export default function AllTourist() {
                  
                  website=""
 
-                 webname=["", "Free", "24/7"]
+                 webname={["", "Free", "24/7"]}
 
 
                  
@@ -142,7 +142,7 @@ export default function AllTourist() {
                  
                  website="https://csmvs.in/"
 
-                 webname=["Chhatrapati Shivaji Maharaj Vastu Sanghralaya", "Paid", "From 10:15 AM to 6:00 PM"]
+                 webname={["Chhatrapati Shivaji Maharaj Vastu Sanghralaya", "Paid", "From 10:15 AM to 6:00 PM"]}
 
                 
 
@@ -161,7 +161,7 @@ export default function AllTourist() {
                  
                  website="https://www.nehrucentremumbai.in/"
 
-                 webname=["Nehru Planeterium", "Paid", "From 10:00 AM to 5:45 PM"]
+                 webname={["Nehru Planeterium", "Paid", "From 10:00 AM to 5:45 PM"]}
 
                  
 
@@ -180,7 +180,7 @@ export default function AllTourist() {
                  
                  website="https://www.nehrucentremumbai.in/"
 
-                 webname=["Nehru Centre", "Paid", "From 10:00 AM to 5:45 PM"]
+                 webname={["Nehru Centre", "Paid", "From 10:00 AM to 5:45 PM"]}
 
                  
 
@@ -198,7 +198,7 @@ export default function AllTourist() {
                  
                  website=""
 
-                 webname=["", "Paid", "From 10:00 AM to 8:00 PM"]
+                 webname={["", "Paid", "From 10:00 AM to 8:00 PM"]}
 
                  
 
@@ -219,7 +219,7 @@ export default function AllTourist() {
                  
                  website="https://www.bdlmuseum.org/"
 
-                 webname=["DR. Bhau Daji Lad Museum", "Paid", "From 10:00 AM to 5:30 PM"]
+                 webname={["DR. Bhau Daji Lad Museum", "Paid", "From 10:00 AM to 5:30 PM"]}
 
                
 
@@ -238,7 +238,7 @@ export default function AllTourist() {
                  
                  website="https://www.gandhi-manibhavan.org/"
 
-                 webname=["Mani Bhavan", "Free", "From 9:30 AM to 6:00 PM"
+                 webname={["Mani Bhavan", "Free", "From 9:30 AM to 6:00 PM"]}
 
                
                  />
@@ -256,7 +256,7 @@ export default function AllTourist() {
                  
                  website="https://www.piramalaranya.com/rani-baug-byculla/"
 
-                 webname=["Rani Baug", "Paid", "From 9:00 AM to 6:00 PM"]
+                 webname={["Rani Baug", "Paid", "From 9:00 AM to 6:00 PM"]}
 
                 
 
@@ -275,7 +275,7 @@ export default function AllTourist() {
                  
                  website=""
 
-                 webname=["", "Free", "24/7"]
+                 webname={["", "Free", "24/7"]}
 
                  
 
@@ -294,7 +294,7 @@ export default function AllTourist() {
                  
                  website="https://www.filmcitymumbai.org/"
 
-                 webname=["Film City", "Paid", "From 5:00 AM to 12:00 AM"]
+                 webname={["Film City", "Paid", "From 5:00 AM to 12:00 AM"]}
 
                 
 
@@ -313,7 +313,7 @@ export default function AllTourist() {
                  
                  website=""
 
-                 webname=["", "Free", "24/7"]
+                 webname={["", "Free", "24/7"]}
                      
                
 
@@ -332,7 +332,7 @@ export default function AllTourist() {
                  
                  website="https://www.piramalmahalaxmi.com/mahalaxmi-racecourse/"
 
-                 webname=["Mahalaxmi Race Course", "Paid", "From 9:00 AM to 6:00 PM"] 
+                 webname={["Mahalaxmi Race Course", "Paid", "From 9:00 AM to 6:00 PM"] }
 
                
 
