@@ -239,7 +239,7 @@ export default function AllTourist() {
 
                  location="Location: Ridge Rd, Simla Nagar, Malabar Hill, Mumbai"
 
-                 img="https://www.mumbailive.com/images/media/images/hanging_garden_1695731117497.jpg?bg=292712&crop=960%2C538.9473684210526%2C0%2Cnull&fit=crop&fitToScale=w%2C1368%2C768&fm=webp&h=768&height=639&w=1368&width=960"
+                 img="https://www.onlinetourguide.in/wp-content/uploads/2018/08/63032385.jpg"
 
                  para=" The Boot House, located in Mumbai, is a unique architectural marvel shaped like a giant boot. Originally built as a tribute to a British officer's love for his wife, it now houses a shoe store."
 
