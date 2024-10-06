@@ -7,7 +7,7 @@ import NavTourist from "./NavTourist";
 
 export default function MainTourist() {
   const location = useLocation();
-  const { heading, img, para, website, webname, fees, time,  location: touristLocation } = location.state;
+  const { heading, img, para, website, webname,   location: touristLocation } = location.state;
 
   const [reviews, setReviews] = useState([]);
   const [rating, setRating] = useState(0);
@@ -109,7 +109,12 @@ export default function MainTourist() {
       <NavTourist />
 
       <div className="container mx-auto p-6">
-        <section className="bg-white p-6 rounded-lg shadow-lg max-w-7xl mx-auto">
+        <section className="bg-white p-6 rounded-lg shadow-lg max-w-7xl  mx-auto">
+              <div className="text-center text-2xl font-semibold mb-4">
+                  {webname[0]}
+                </div>
+
+
           <div className="flex flex-col md:flex-row md:space-x-6">
             <div className="md:w-1/2">
               <img
@@ -127,21 +132,21 @@ export default function MainTourist() {
                 <hr />
                 <div className="flex items-center mb-2 h-[30px]">
                   <i className="fa-solid fa-dollar-sign mr-2 text-gray-500"></i>
-                  <p className="text-gray-700">{fees}</p>
+                  <p className="text-gray-700">{webname[1]}</p>
                 </div>
                 <hr />
                 <div className="flex items-center mb-2 h-[30px]">
                   <i className="fa-solid fa-clock mr-2 text-gray-500"></i>
-                  <p className="text-gray-700">{time}</p>
+                  <p className="text-gray-700">{webname[2]}</p>
                 </div>
                 <hr />
                 <div className="flex items-center h-[30px]">
-                 { webname ? (
+                 { webname[0] ? (
                       <div className="flex items-center">
                         <i className="fa-solid fa-earth-americas text-gray-500"></i>
                         <p className="text-gray-700 ml-2">
                           <a href={website} className="text-blue-600">
-                            {webname}
+                            {webname[0]}
                           </a>
                         </p>
                       </div>
