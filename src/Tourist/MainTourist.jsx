@@ -7,7 +7,7 @@ import NavTourist from "./NavTourist";
 
 export default function MainTourist() {
   const location = useLocation();
-  const { heading, img, para, website, webname,  location: touristLocation } = location.state;
+  const { heading, img, para, website, webname, fees, time,  location: touristLocation } = location.state;
 
   const [reviews, setReviews] = useState([]);
   const [rating, setRating] = useState(0);
@@ -127,12 +127,12 @@ export default function MainTourist() {
                 <hr />
                 <div className="flex items-center mb-2 h-[30px]">
                   <i className="fa-solid fa-dollar-sign mr-2 text-gray-500"></i>
-                  <p className="text-gray-700">Free</p>
+                  <p className="text-gray-700">{fees}</p>
                 </div>
                 <hr />
                 <div className="flex items-center mb-2 h-[30px]">
                   <i className="fa-solid fa-clock mr-2 text-gray-500"></i>
-                  <p className="text-gray-700">24/7</p>
+                  <p className="text-gray-700">{time}</p>
                 </div>
                 <hr />
                 <div className="flex items-center h-[30px]">
