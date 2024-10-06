@@ -23,7 +23,7 @@ export default function AllTourist() {
 
                  link="https://www.google.com/maps/place/Gateway+Of+India+Mumbai/@18.9219892,72.8320794,17z/data=!4m6!3m5!1s0x3be7d1c73a0d5cad:0xc70a25a7209c733c!8m2!3d18.9219841!4d72.8346543!16zL20vMDJoN3Iy?entry=ttu"
                  
-                 website=""
+                 website="https://mumbaicity.gov.in/tourist-place/gateway-of-india/"
 
                  webname="Gateway Of India"
 
