@@ -136,7 +136,7 @@ export default function MainTourist() {
                 </div>
                 <hr />
                 <div className="flex items-center h-[30px]">
-                  <i className="fa-solid fa-earth-americas text-gray-500"></i>
+                  { webname? <i className="fa-solid fa-earth-americas text-gray-500"></i> 
                   <p className="text-gray-700">
                     <a
                       href={website}
@@ -144,7 +144,7 @@ export default function MainTourist() {
                     >
                       {webname}
                     </a>
-                  </p>
+                  </p> : null}
                 </div>
               </div>
             </div>
