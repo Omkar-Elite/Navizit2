@@ -7,7 +7,7 @@ import NavTourist from "./NavTourist";
 
 export default function MainTourist() {
   const location = useLocation();
-  const { heading, img, para, location: touristLocation } = location.state;
+  const { heading, img, para, website, webname,  location: touristLocation } = location.state;
 
   const [reviews, setReviews] = useState([]);
   const [rating, setRating] = useState(0);
