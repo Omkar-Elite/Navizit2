@@ -27,6 +27,10 @@ export default function AllTourist() {
 
                  webname="Gateway Of India"
 
+                 fees="Free"
+
+                 time="24/7"
+
                 
 
                  />
@@ -45,7 +49,9 @@ export default function AllTourist() {
 
                  webname="Elephanta Caves"
 
+                 fees="Paid"
 
+                 time="From 9:30 AM to 5:30 PM"
                  />
 
                  <ShowTourist 
@@ -62,6 +68,10 @@ export default function AllTourist() {
                  website="https://www.siddhivinayak.org/"
 
                  webname="Siddhivinayak Temple"
+
+                 fees="Free"
+
+                 time="From 5:30 AM to 10:00 PM"
 
                  />
 
@@ -80,6 +90,10 @@ export default function AllTourist() {
 
                  webname=""
 
+                 fees="Free"
+
+                 time="24/7"
+
                  />
 
                  <ShowTourist 
@@ -96,6 +110,10 @@ export default function AllTourist() {
                  website=""
 
                  webname=""
+
+                 fees="Free"
+
+                 time="24/7"
 
                  
                  />
@@ -115,6 +133,10 @@ export default function AllTourist() {
 
                  webname=""
 
+                 fees="Free"
+
+                 time="24/7"
+
                  />
                   <ShowTourist 
                  heading="CHHATRAPATI SHIVAJI MAHARAJ VASTU SANGHRALAYA"
@@ -130,6 +152,10 @@ export default function AllTourist() {
                  website="https://csmvs.in/"
 
                  webname="Chhatrapati Shivaji Maharaj Vastu Sanghralaya"
+
+                 fees="Paid"
+
+                 time="From 10:15 AM to 6:00 PM"
 
                  />
 
@@ -148,6 +174,10 @@ export default function AllTourist() {
 
                  webname="Nehru Planeterium"
 
+                 fees="Paid"
+
+                 time="From 10:00 AM to 5:45 PM"
+
                   
                  />
                   <ShowTourist 
@@ -165,6 +195,10 @@ export default function AllTourist() {
 
                  webname="Nehru Centre"
 
+                 fees="Paid"
+
+                 time="From 10:00 AM to 5:45 PM"
+
                  />
                   <ShowTourist 
                  heading="TARAPOREVALA AQUARIUM"
@@ -180,6 +214,10 @@ export default function AllTourist() {
                  website=""
 
                  webname=""
+
+                 fees="Paid"
+
+                 time="From 10:00 AM to 8:00 PM"
 
                  />
 
@@ -198,6 +236,10 @@ export default function AllTourist() {
 
                  webname="DR. Bhau Daji Lad Museum"
 
+                 fees="Paid"
+
+                 time="From 10:00 AM to 5:30 PM"
+
                  />
                  
                  <ShowTourist 
@@ -215,6 +257,9 @@ export default function AllTourist() {
 
                  webname="Mani Bhavan"
 
+                 fees="Free"
+                
+                 time="From 9:30 AM to 6:00 PM"
                  />
                  
                  <ShowTourist 
@@ -231,6 +276,10 @@ export default function AllTourist() {
                  website="https://www.piramalaranya.com/rani-baug-byculla/"
 
                  webname="Rani Baug"
+
+                 fees="Paid"
+
+                 time="From 9:00 AM to 6:00 PM"
 
                  />
 
@@ -249,6 +298,10 @@ export default function AllTourist() {
 
                  webname=""
 
+                 fees="Free"
+
+                 time="24/7"
+
                  />
 
                 <ShowTourist 
@@ -266,6 +319,10 @@ export default function AllTourist() {
 
                  webname="Film City"
 
+                 fees="Paid"
+
+                 time="From 5:00 AM to 12:00 AM"
+
                  />
 
                  <ShowTourist 
@@ -282,6 +339,10 @@ export default function AllTourist() {
                  website=""
 
                  webname=""
+                     
+                fees="Free"
+
+                 time="24/7"
 
                  />
 
@@ -299,6 +360,10 @@ export default function AllTourist() {
                  website="https://www.piramalmahalaxmi.com/mahalaxmi-racecourse/"
 
                  webname="Mahalaxmi Race Course"
+
+                 fees="Paid"
+
+                 time="From 9:00 AM to 6:00 PM"
 
                  />
 
