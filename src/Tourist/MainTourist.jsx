@@ -139,10 +139,10 @@ export default function MainTourist() {
                   <i className="fa-solid fa-earth-americas text-gray-500"></i>
                   <p className="text-gray-700">
                     <a
-                      href="https://mumbaicity.gov.in/tourist-place/gateway-of-india/"
+                      href={website}
                       className="text-blue-600 ml-2"
                     >
-                      GatewayofIndia.com
+                      {webname}
                     </a>
                   </p>
                 </div>
