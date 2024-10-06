@@ -154,6 +154,8 @@ export default function MainTourist() {
           <div className="flex flex-col mt-6">
             <div className="flex items-center">
             <StarRatings
+              
+
                     rating={averageRating}
                     starRatedColor="gold" // Color for filled stars
                     starEmptyColor="gray" // Color for empty stars

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import logoIcon from './logomain.png';
 
 const MainLogin = () => {
   const [email, setEmail] = useState('');
@@ -61,7 +62,7 @@ const MainLogin = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 text-white">
       <div className='flex justify-center items-center w-[700px]'>
-          <img src="/src/HomePage/Navbar/logomain.png" alt="Logo" className="w-[290px] h-[70px] ml-3 mix-blend-multiply bg-transparent" />
+          <img src={logoIcon} alt="Logo" className="w-[290px] h-[70px] ml-3 mix-blend-multiply bg-transparent" />
         </div>
       <div className="w-full max-w-md space-y-8 bg-gray-900 p-10 rounded-lg shadow-lg">
         <h2 className="text-center text-3xl font-bold text-white">Log in to your account</h2>
