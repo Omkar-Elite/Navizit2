@@ -14,7 +14,7 @@ function EventSection() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        ` https://api.bing.microsoft.com/v7.0/events/search?q=events%20in%20Mumbai&count=20&mkt=en-IN&setLang=EN`,
+        ` https://api.bing.microsoft.com/v7.0/news/search?q=events%20in%20Mumbai&count=20&mkt=en-IN&setLang=EN`,
         {
           headers: {
             "Ocp-Apim-Subscription-Key": API_KEY,
