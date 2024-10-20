@@ -8,7 +8,7 @@ function EventSection() {
   const [visibleData, setVisibleData] = useState([]); // To hold sliced data for rendering
   const [firstIndex, setFirstIndex] = useState(0); // Start index for pagination
   const [lastIndex, setLastIndex] = useState(10); // End index for pagination
-  const API_KEY = "104af9d46d0b4abda22b33e91bade591"; // Replace with your actual Bing API key
+  const API_KEY = "2b6b4924328941bb896810799faea5fc"; // Replace with your actual Bing API key
 
   // Fetch data from News API
   const fetchData = async () => {
